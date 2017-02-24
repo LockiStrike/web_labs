@@ -1,0 +1,116 @@
+body{
+    background: repeating-linear-gradient(to right, #6D9DC5, #C0B9DD);
+    /*background: repeating-linear-gradient(to right, #C02425, #F0CB35);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Century Schoolbook L";
+    font-size: 16px;
+}
+
+#start_button{
+    position: fixed;
+    align-items: center;
+}
+
+#form_div{
+    text-align: center;
+    width: 30%;
+
+}
+
+#head_text{
+    position: absolute;
+    top: 250px;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+
+#main_form input{
+    margin-bottom: 30px;
+    max-width: 200px;
+    width: 50%;
+
+}
+
+#select_div{
+    display: inline-block;
+    margin-right: 40px;
+    height: 30px;
+    text-align: center;
+    width: 100px;
+
+}
+
+#select_method_select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 100%;
+    background-color: #BCC2BE;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding-left: 10px;
+    width: 60px;
+
+
+
+
+
+}
+
+#select_method_select:focus{
+    outline: none;
+}
+
+#file_input{
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+#submit_button{
+    background: rgb(28, 184, 65);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    letter-spacing: 0.01em;
+    margin-left: 105px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    width: 100px;
+
+
+}
+
+#submit_button:hover{
+    background: linear-gradient(to bottom ,#20A84B, #22D45A);
+
+}
+
+#start_button{
+    background: linear-gradient(to bottom, rgb(66, 184, 221) ,#2051A0) ;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+}
+
+
+.wrap-inner {
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+
+}
+
+#main_form label {
+    display: inline-block;
+    width: 100px;
+    color: whitesmoke;
+}
